@@ -662,6 +662,7 @@ body.light-theme{
 
 .work__filters{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   column-gap: .75rem;
