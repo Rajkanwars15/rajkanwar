@@ -960,6 +960,10 @@ body.light-theme{
   .work__filters{
     column-gap: .25rem;
   }
+  .auto-resize-image {
+    max-width: 80%;
+    height: auto;
+  }
 }
 
 /* For medium devices */
@@ -1013,7 +1017,7 @@ body.light-theme{
   }
 
   .work__card p{
-    text-align: justify; 
+    text-align: justify;
     width: 300px;
   }
 
@@ -1025,6 +1029,10 @@ body.light-theme{
   .contact__form{
     width: 360px;
     margin: 0 auto;
+  }
+  .auto-resize-image {
+    max-width: 60%;
+    height: auto;
   }
 }
 
@@ -1042,6 +1050,10 @@ body.light-theme{
     /*grid-template-columns: repeat(2, max-content);*/
     justify-content: center;
     column-gap: 3rem;
+  }
+  .auto-resize-image {
+    max-width: 40%;
+    height: auto;
   }
 }
 
@@ -1168,4 +1180,8 @@ body.light-theme{
     font-size: 1.25rem;
     border-radius: .5rem;
   }
+}
+.auto-resize-image {
+  width: 100%; /* Take full available width on all screens */
+  height: auto; /* Maintain aspect ratio */
 }
