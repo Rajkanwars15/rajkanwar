@@ -264,6 +264,11 @@ body.light-theme{
 .nav__logo:hover{
   color: var(--first-color-alt);
 }
+.logo-icon {
+  width: 1em; /* You can adjust the width as needed */
+  height: 1em; /* You can adjust the height as needed */
+  margin-right: 5px; /* Add some spacing between the image and text */
+}
 
 .nav__menu{
   position: fixed;
