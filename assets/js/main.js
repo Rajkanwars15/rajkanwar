@@ -143,3 +143,21 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__handle`, {delay: 700})
 sr.reveal(`.home__social, .home__scroll`, {delay: 900, origin: 'bottom'})
+
+/*=================== TOGGLE IMAGES ===================*/
+// Function to toggle images
+function toggleImage() {
+    var image1 = document.getElementById("image1");
+    var image2 = document.getElementById("image2");
+
+    if (image1.style.display === "none") {
+        image1.style.display = "block";
+        image2.style.display = "none";
+    } else {
+        image1.style.display = "none";
+        image2.style.display = "block";
+    }
+}
+
+// Set interval for automatic image toggling (every 5 seconds)
+setInterval(toggleImage, 1000); // Adjust the interval time (in milliseconds) as needed
