@@ -36,15 +36,15 @@ $(function () {
                 output += '<div class="row">' +
                     '<div class="col-12 col-lg-8 col-md-8 col-sm-12 col-centered" style="margin: auto;">' +
                     '<div class="mainbox">' +
-                    '<div>' +
-                    '<div class="profile_img">' +
-                    '<img alt="' + item.author + '" style="border-radius: 50%;display: block; height: 40px; width: 40px;" src="https://miro.medium.com/fit/c/80/80/' + imageId + '" class="dp" width="40" height="40">' +
-                    '</div>' +
-                    '<div class="dr">' +
-                    '<a href="' + author + '" target="_blank"><span class="bx">' + item.author + '</span></a>' +
-                    '<span class="af">' + formattedDateStr + '</span>' +
-                    '</div>' +
-                    '</div>' +
+                    // '<div>' +
+                    // '<div class="profile_img">' +
+                    // '<img alt="' + item.author + '" style="border-radius: 50%;display: block; height: 40px; width: 40px;" src="https://miro.medium.com/fit/c/80/80/' + imageId + '" class="dp" width="40" height="40">' +
+                    // '</div>' +
+                    // '<div class="dr">' +
+                    // '<a href="' + author + '" target="_blank"><span class="bx">' + item.author + '</span></a>' +
+                    // '<span class="af">' + formattedDateStr + '</span>' +
+                    // '</div>' +
+                    // '</div>' +
                     '<div class="dsbox">' +
                     '<div class="dvbox">' +
                     '<a href="' + item.link + '" target="_blank"><img alt="" src="' + src + '" class="bhbox" width="720" height="210"></a>' +
